@@ -1,0 +1,46 @@
+<html>
+	<head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Creació usuari</title>
+	</head>
+ <body class="p-3 mb-2 bg-dark ">
+	 <div class="col-6" >
+    <form action="http://localhost/projecteldap/afegirusuari.php" method=post>
+		
+		<p  class="text-primary" class="text-justify">	Nom de l'usuari: </p>
+			 <input  type=text name=nom ><br><br>
+				<p  class="text-primary" class="text-justify">  Cognom de l'usuari: </p>
+			  <input  type=text name=cognom ><br><br>
+			<p  class="text-primary" class="text-justify">	Càrrec o títol de l'usuari: </p>
+			<input  type=text name=titol ><br><br>
+				<p  class="text-primary" class="text-justify"> Telèfon fixe de l'usuari: </p>
+			  <input type=text name=numeroTel ><br><br>
+				<p  class="text-primary" class="text-justify">  Telèfon mòbil de l'usuari: </p>
+			 <input  type=text name=movil ><br><br>
+				<p  class="text-primary" class="text-justify"> Adreça de l'usuari:</p>
+			 <input type=text name=adressaPostal ><br><br>
+				<p  class="text-primary" class="text-justify"> Descripció de l'usuari: </p>
+			 <input type=text name=description ><br><br>
+				<p  class="text-primary" class="text-justify"> Identificador del usuari (login): </p>
+			 <input  type=text name=uid ><br><br>
+				<p  class="text-primary" class="text-justify">Unitat organitzativa de l'usuari: </p>
+			  <input type=text name=ou ><br><br>
+				<p  class="text-primary" class="text-justify"> Número identificador de l'usuari: </p>
+			<input type=text name=numeroUid ><br><br>
+				<p  class="text-primary" class="text-justify"> Número del grup per defecte de l'usuari: </p>
+			  <input  type=text name=numeroG ><br><br>
+				<p  class="text-primary" class="text-justify">  Directori personal de l'usuari: </p>
+			  <input  type=text name=directoriUsuari ><br><br>
+				<p  class="text-primary" class="text-justify">  Shell per defecte de l'usuari: </p>
+			<input  type=text name=shellUsuari ><br><br>
+				<p  class="text-primary" class="text-justify"> Contrasenya del usuari: </p>
+			<input  type=text name=passwordU ><br><br>
+			 <input class="btn btn-primary" type=submit value="Crear"> 
+		  </form>
+	<a href='paginaopcions.html'>	<button class="btn btn-outline-primary" type=submit>Paginaopcions</button></a>
+		
+	</form>
+     </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+	<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Editar usuari</title>
+	</head>
+ <body class="p-3 mb-2 bg-dark ">
+	 <div class="col-6" >
+    <form action="http://localhost/projecteldap/editarusuari.php" method=post>
+		<h3 class="text-primary" class="text-justify"> Usuari a modificar: </h3>
+		<br>
+			<h5  class="text-primary" class="text-justify"> Identificador de  l'usuari: </h5>
+			<input type=text name=uid >
+			<h5  class="text-primary" class="text-justify">  Unitat organitzativa de l'usuari: </h5>
+			 <input  type=text name=ou >
+		  <br><br>
+			 <p  class="text-primary" class="text-justify"> Escriu les dades que vols modificar:</p>
+		<p  class="text-primary" class="text-justify">Nom de l'usuari: </p>
+			  <input type=text name=nombre>
+		<p  class="text-primary" class="text-justify">Cognom de l'usuari: </p>
+		 <input type=text name=cognom >
+		   <p  class="text-primary" class="text-justify">Càrrec o títol de l'usuari: </p>
+		<input type=text name=titol >
+		<p  class="text-primary" class="text-justify">Telèfon fixe de l'usuari: </p>
+		 <input type=text name=telf >
+		 <p  class="text-primary" class="text-justify">Telèfon mòbil de l'usuari: </p>
+		   <input type=text name=mbl >
+		   <p  class="text-primary" class="text-justify">Adreça de l'usuari: </p>
+		   <input type=text name=adrss >
+		   <p  class="text-primary" class="text-justify">Descripció de l'usuari: </p>
+		 <input type=text name=desc >
+		 <p  class="text-primary" class="text-justify">Número identificador de l'usuari: </p>
+		   <input type=text name=uidN >
+		   <p  class="text-primary" class="text-justify">Número del grup per defecte de l'usuari: </p>
+		  <input type=text name=gid >
+		  <p  class="text-primary" class="text-justify">Directori Personal de l'usuari: </p>
+		   <input type=text name=dp >
+		   <p  class="text-primary" class="text-justify">Shell per defecte de l'usuari: </p>
+		 <input type=text name=sp >
+		 <p  class="text-primary" class="text-justify">Contrasenya de l'usuari: </p>
+		   <input type=text name=psswd >
+<br><br>
+		  <input class="btn btn-primary" type=submit value="Editar">
+		   </form>
+		<a href='paginaopcions.html'><button class="btn btn-outline-primary" type=submit>Tornar opcions</button></a>
+		   
+	</form>
+       </div>
+  </body>
+</html>
